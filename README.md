@@ -1,7 +1,7 @@
 #Doggie
 A psychology visual experimental platform
 
-![main](https://github.com/Code-Guy/Doggie/blob/master/snapshots/(%60~BPP1(267%25B%5B2%7BF@PS40G.png?raw=true)
+![main](https://github.com/Code-Guy/Doggie/blob/master/snapshots/main.png?raw=true)
 
 ###Introduction
 We integrated some common psychology visual experimental elements(Stimulus Object, SObj) into one platform: Audio, Demo, Face, Model, Optical Flow, Optical Grating, Picture, Shape, Simple Face, Text, Video. User can observe and config these SObjs on our platform, and save all of these into a project file, which can be opened and edited whenever necessary.
