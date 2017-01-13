@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{16338f0e-01a2-49c7-b9b5-e1edb7900912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gen">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Gen\Debug">
+      <UniqueIdentifier>{06b0db52-8687-4d73-a631-de756c537a51}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Gen\Release">
+      <UniqueIdentifier>{62fb5fd2-df22-4601-ac3f-edd0f6269efa}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GUI\Form">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="GUI\Res">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{d4d9e3e6-e863-451a-92cf-a56881cf3435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{046649ca-e501-454f-81d2-5cb5729c2583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Command">
+      <UniqueIdentifier>{f933f383-b5ff-4cb1-8da7-a36c54728d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Configuration">
+      <UniqueIdentifier>{e5870db8-a7e2-4b80-af83-19d8795c09d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Operation">
+      <UniqueIdentifier>{3dc24c66-66b7-42e8-8d84-7661567b85b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{57902632-c11f-49d0-ae41-3550a9f4765b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="recordvideowidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_recordvideowidget.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_recordvideowidget.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sobjicon.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sobjicon.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sobjicon.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sobjselectionwidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sobjselectionwidget.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sobjselectionwidget.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_LvluoPlatform.cpp">
+      <Filter>Gen</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="multisamplefbo.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="pickfbo.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="createcommand.cpp">
+      <Filter>Scene\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="groupcommand.cpp">
+      <Filter>Scene\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="removecommand.cpp">
+      <Filter>Scene\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="ungroupcommand.cpp">
+      <Filter>Scene\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="appconfig.cpp">
+      <Filter>Scene\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_appconfig.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_appconfig.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="recentprojectaction.cpp">
+      <Filter>Scene\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_recentprojectaction.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_recentprojectaction.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneproperty.cpp">
+      <Filter>Scene\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sceneproperty.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sceneproperty.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="grouper.cpp">
+      <Filter>Scene\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="mover.cpp">
+      <Filter>Scene\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="operator.cpp">
+      <Filter>Scene\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_operator.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_operator.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paster.cpp">
+      <Filter>Scene\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="rotator.cpp">
+      <Filter>Scene\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="scaler.cpp">
+      <Filter>Scene\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="selector.cpp">
+      <Filter>Scene\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_scene.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_scene.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recordvideowidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sobjicon.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sobjselectionwidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>GUI\Form</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recordvideowidget.ui">
+      <Filter>GUI\Form</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LvluoPlatform.qrc">
+      <Filter>GUI\Res</Filter>
+    </CustomBuild>
+    <CustomBuild Include="appconfig.h">
+      <Filter>Scene\Configuration</Filter>
+    </CustomBuild>
+    <CustomBuild Include="recentprojectaction.h">
+      <Filter>Scene\Configuration</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sceneproperty.h">
+      <Filter>Scene\Configuration</Filter>
+    </CustomBuild>
+    <CustomBuild Include="operator.h">
+      <Filter>Scene\Operation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="scene.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_recordvideowidget.h">
+      <Filter>Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="multisamplefbo.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="pickfbo.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="createcommand.h">
+      <Filter>Scene\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="groupcommand.h">
+      <Filter>Scene\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="removecommand.h">
+      <Filter>Scene\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ungroupcommand.h">
+      <Filter>Scene\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="grouper.h">
+      <Filter>Scene\Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="mover.h">
+      <Filter>Scene\Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="paster.h">
+      <Filter>Scene\Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="rotator.h">
+      <Filter>Scene\Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="scaler.h">
+      <Filter>Scene\Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="selector.h">
+      <Filter>Scene\Operation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LvluoPlatform.rc">
+      <Filter>GUI\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

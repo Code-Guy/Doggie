@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Gen">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Gen\Debug">
+      <UniqueIdentifier>{85f7e7aa-7d84-4dea-9813-35137c5c0875}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Gen\Release">
+      <UniqueIdentifier>{e9797359-bbfc-42b5-92df-a82a2df75f1d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{15294a67-9bed-45e7-b00e-9c497c6c308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{8f1fa4cd-b394-4296-93d7-6e04a390e259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{8814b259-88c9-4fc9-a764-f3450a4e13d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{c4544c6a-90e2-4aa6-afa0-99c24d432c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Command">
+      <UniqueIdentifier>{025191bf-a868-423e-af61-2b01fd9c9e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{53be59de-554e-496f-a540-97da37875d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SObj">
+      <UniqueIdentifier>{0904795a-de9f-41ae-b82a-7491ece3c980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{5c976c41-670e-4617-b7d4-3f8e4325155c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="colorlabel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_colorlabel.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_colorlabel.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="doublespinboxlist.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_doublespinboxlist.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_doublespinboxlist.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="doublespinboxvec2.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_doublespinboxvec2.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_doublespinboxvec2.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="doublespinboxvec3.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_doublespinboxvec3.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_doublespinboxvec3.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="doublespinboxvec4.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_doublespinboxvec4.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_doublespinboxvec4.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="filewidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_filewidget.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_filewidget.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="paramwidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_paramwidget.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_paramwidget.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="spinboxivec2.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_spinboxivec2.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_spinboxivec2.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="primitivemanager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="resourcemanager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="history.cpp">
+      <Filter>Scene\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="baseshader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="billboardshader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="gridshader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="modelshader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="texturemaskshader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="sobjfactory.cpp">
+      <Filter>SObj</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="statecommand.cpp">
+      <Filter>Scene\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sobj.cpp">
+      <Filter>Gen\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sobj.cpp">
+      <Filter>Gen\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="sobj.cpp">
+      <Filter>SObj</Filter>
+    </ClCompile>
+    <ClCompile Include="pointshader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="colorlabel.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="doublespinboxlist.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="doublespinboxvec2.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="doublespinboxvec3.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="doublespinboxvec4.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="filewidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="paramwidget.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spinboxivec2.h">
+      <Filter>GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sobj.h">
+      <Filter>SObj</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="primitivemanager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="resourcemanager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="history.h">
+      <Filter>Scene\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="icommand.h">
+      <Filter>Scene\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="baseshader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="billboardshader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="gridshader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="modelshader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="texturemaskshader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="sobjfactory.h">
+      <Filter>SObj</Filter>
+    </ClInclude>
+    <ClInclude Include="lvluoapi.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="statecommand.h">
+      <Filter>Scene\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="isobj.h">
+      <Filter>SObj</Filter>
+    </ClInclude>
+    <ClInclude Include="pointshader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

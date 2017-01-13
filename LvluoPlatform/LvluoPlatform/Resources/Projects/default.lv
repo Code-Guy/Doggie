@@ -1,0 +1,75 @@
+{
+    "Groups": {
+        "Group 0": {
+            "Item 0": "Dynamic-Optical Flow-3",
+            "Item 1": "Media-Picture-4",
+            "Item 2": "Model-Cyborg-5",
+            "Item 3": "Shape-Line-Square-7",
+            "Item 4": "Shape-Point-Circle-8",
+            "Item 5": "Shape-Point-Cross-9",
+            "Item 6": "Shape-Line-Rectangle-6"
+        }
+    },
+    "SObjs": {
+        "Dynamic-Optical Flow-3": {
+            "Azimuths": "(45)",
+            "Coherence": 80,
+            "Division": 1000,
+            "Duration": 2,
+            "Elevation": 0,
+            "Life Time": 5,
+            "Life Time On/Off": true,
+            "Magnitude": 1,
+            "Offset": "(0, 0, 0)",
+            "Position": "(-1.75473, 0.964751, -0.5)",
+            "Rotation": "(0, 0, 0)",
+            "Sigma": 1,
+            "Size": "(1, 1, 1)",
+            "Space Shape": 0,
+            "Space Size": "(1, 1, 1)",
+            "Star Color": "(1, 1, 0)",
+            "Star Density": 80,
+            "Star Shape": 0,
+            "Star Size": 0.05000000074505806
+        },
+        "Media-Picture-4": {
+            "File Name": "D:/VSProjects/2015/Lvluo/Lvluo/Resources/SObjs/Media/Picture/beauty.jpg",
+            "Position": "(1.76871, 1.20943, -0.5)",
+            "Rotation": "(0, 0, 0)",
+            "Size": "(1, 1, 1)"
+        },
+        "Model-Cyborg-5": {
+            "Ambient Color": "(0.3, 0.3, 0.3)",
+            "Diffuse Color": "(0.7, 0.7, 0.7)",
+            "Direction": "(-1, -1, -1)",
+            "Position": "(-1.64287, -1.07661, -0.5)",
+            "Rotation": "(0, 0, 0)",
+            "Size": "(1, 1, 1)",
+            "Specular Color": "(0.8, 0.8, 0.8)"
+        },
+        "Shape-Line-Rectangle-6": {
+            "Color": "(0, 0, 0)",
+            "Position": "(1.21884, -1.40076, -0.0999999)",
+            "Rotation": "(0, 0, 0)",
+            "Size": "(0.58554, 0.58554, 0.58554)"
+        },
+        "Shape-Line-Square-7": {
+            "Color": "(0, 0, 0)",
+            "Position": "(1.27664, -1.09444, -0.5)",
+            "Rotation": "(0, 0, 0)",
+            "Size": "(1, 1, 1)"
+        },
+        "Shape-Point-Circle-8": {
+            "Color": "(0, 0, 0)",
+            "Position": "(0.786218, -0.595061, -0.4)",
+            "Rotation": "(0, 0, 0)",
+            "Size": "(0.299392, 0.235407, 0.590581)"
+        },
+        "Shape-Point-Cross-9": {
+            "Color": "(0, 0, 0)",
+            "Position": "(1.65939, -0.59576, -0.2)",
+            "Rotation": "(0, 0, 0)",
+            "Size": "(0.230174, 0.230174, 0.230174)"
+        }
+    }
+}
